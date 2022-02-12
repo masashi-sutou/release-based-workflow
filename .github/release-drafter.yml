@@ -6,8 +6,7 @@ categories:
     labels:
       - 'feature'
   - title: '💪 Enhancement'
-    labels:
-      - 'enhancement'
+    label: 'enhancement'
   - title: '🐛 Bug Fixes'
     label: 'bug'
   - title: '🧰 Maintenance'
