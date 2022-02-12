@@ -16,7 +16,9 @@ categories:
   - title: '📖 Documentation'
     label: 'documentation'
   - title: '⛓️ Dependency update'
-    label: 'dependencies'
+    labels:
+      - 'dependencies'
+      - 'renovate'
 
 version-resolver:
   major:
