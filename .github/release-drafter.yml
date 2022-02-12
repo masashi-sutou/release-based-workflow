@@ -20,6 +20,8 @@ categories:
     label: 'refactor'
   - title: '📖 Documentation'
     label: 'documentation'
+  - title: '⚙️ auto generate'
+    label: 'generate'
   - title: '⛓️ Dependency update'
     labels:
       - 'dependencies'
@@ -59,3 +61,6 @@ autolabeler:
   - label: enhancement
     branch:
       - '/(enhance|enhancement|improve)[/-].+/'
+  - label: generate
+    branch:
+      - '/(gen|generate)[/-].+/'
