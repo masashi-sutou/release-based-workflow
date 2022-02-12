@@ -8,8 +8,7 @@ tag-template: 'v$RESOLVED_VERSION'
 
 categories:
   - title: '✨ Features'
-    labels:
-      - 'feature'
+    label: 'feature'
   - title: '💪 Enhancement'
     label: 'enhancement'
   - title: '🐛 Bug Fixes'
