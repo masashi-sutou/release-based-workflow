@@ -6,8 +6,7 @@ categories:
     labels:
       - 'feature'
   - title: '💪 Enhancement'
-    labels:
-      - 'enhancement'
+    label: 'enhancement'
   - title: '🐛 Bug Fixes'
     label: 'bug'
   - title: '🧰 Maintenance'
@@ -18,6 +17,18 @@ categories:
     label: 'documentation'
   - title: '⛓️ Dependency update'
     label: 'dependencies'
+
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
 
 template: |
   ## What's Changed
