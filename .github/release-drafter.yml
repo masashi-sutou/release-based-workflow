@@ -55,6 +55,7 @@ autolabeler:
       - '/doc(umentation)[/-].+/'
     files:
       - '*.md'
+      - '*.pu'
   - label: enhancement
     branch:
       - '/(enhance|enhancement|improve)[/-].+/'
