@@ -18,6 +18,18 @@ categories:
   - title: '⛓️ Dependency update'
     label: 'dependencies'
 
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
+
 template: |
   ## What's Changed
 
