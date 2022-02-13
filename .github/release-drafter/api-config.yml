@@ -1,10 +1,10 @@
 template: |
-  ## What's Changed
+  ## What's API Changed
 
   $CHANGES
 
-name-template: 'v$RESOLVED_VERSION'
-tag-template: 'v$RESOLVED_VERSION'
+name-template: 'api/$RESOLVED_VERSION'
+tag-template: 'api/$RESOLVED_VERSION'
 
 categories:
   - title: '✨ Features'
