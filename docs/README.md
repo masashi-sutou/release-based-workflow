@@ -1,3 +1,10 @@
+## release-drafterとは
+
+- https://github.com/release-drafter/release-drafter のREADME.mdを参照
+- OSSのように、どのバージョンでどのPRがどのような修正で行われたのか履歴を追いやすくわかりやすい
+
+## リリースドラフトの作成フロー
+
 ```mermaid
 sequenceDiagram
 actor 開発者
@@ -17,3 +24,7 @@ end
 開発者 -->> GitHub: 手動でGitHub Actionsを起動してデプロイ
 開発者 -->> GitHub: リリースドラフトを公開してタグを作成
 ```
+
+## 参考
+
+- https://github.com/masashi-sutou/release-based-workflow/releases
