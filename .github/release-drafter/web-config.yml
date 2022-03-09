@@ -6,6 +6,7 @@ template: |
 name-template: 'web/$RESOLVED_VERSION'
 tag-template: 'web/$RESOLVED_VERSION'
 tag-prefix: 'web'
+include-paths: ['web/']
 
 categories:
   - title: '✨ Features'

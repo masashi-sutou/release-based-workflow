@@ -6,6 +6,7 @@ template: |
 name-template: 'api/$RESOLVED_VERSION'
 tag-template: 'api/$RESOLVED_VERSION'
 tag-prefix: 'api'
+include-paths: ['api/']
 
 categories:
   - title: '✨ Features'
