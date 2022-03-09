@@ -5,6 +5,7 @@ template: |
 
 name-template: 'web/$RESOLVED_VERSION'
 tag-template: 'web/$RESOLVED_VERSION'
+tag-prefix: 'web'
 
 categories:
   - title: '✨ Features'
