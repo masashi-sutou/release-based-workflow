@@ -19,8 +19,6 @@ categories:
     label: 'chore'
   - title: '🔧 Refactoring'
     label: 'refactor'
-  - title: '📖 Documentation'
-    label: 'documentation'
   - title: '⚙️ auto generate'
     label: 'generate'
   - title: '⛓️ Dependency update'
@@ -43,22 +41,16 @@ version-resolver:
 autolabeler:
   - label: feature
     branch:
-      - '/^feat(ure)?[/-].+/'
+      - '/feat(ure)?[/-].+/'
   - label: bug
     branch:
-      - '/^fix[/-].+/'
+      - '/fix[/-].+/'
   - label: chore
     branch:
-      - '/^chore[/-].+/'
+      - '/chore[/-].+/'
   - label: refactor
     branch:
       - '/(refactor|refactoring)[/-].+/'
-  - label: documentation
-    branch:
-      - '/doc(umentation)[/-].+/'
-    files:
-      - '*.md'
-      - '*.pu'
   - label: enhancement
     branch:
       - '/(enhance|enhancement|improve)[/-].+/'
